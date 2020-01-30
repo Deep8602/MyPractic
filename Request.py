@@ -178,4 +178,5 @@ class MyRequests:
         next_status_responds = requests.put(update_order_url, json.dumps(next_status), headers=self.headers)
         print(next_status_responds)
         print("заказ № " + str(order_num) + " переведено в наступний статус")
+        print('some massage')
 
